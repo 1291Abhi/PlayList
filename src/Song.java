@@ -21,6 +21,15 @@ public class Song {
         return artist;
     }
 
+    @Override
+    public String toString() {
+        return "Song{" +
+                "title='" + title + '\'' +
+                ", artist='" + artist + '\'' +
+                ", duration=" + duration +
+                '}';
+    }
+
     public void setArtist(String artist) {
         this.artist = artist;
     }
